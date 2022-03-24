@@ -16,9 +16,6 @@ workflows:
       xcode: latest
       cocoapods: default
     scripts:
-      - name: Use system default keychain
-        script: |
-                    keychain add-certificates
       - name: Get Flutter packages
         script: |
                     cd . && flutter packages pub get
