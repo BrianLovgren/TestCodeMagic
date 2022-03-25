@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 buildscript {
-    ext.kotlin_version = '1.6.20-RC2'
+    ext.kotlin_version = '1.1.15'
     ext.minSdkVersion = 31
     ext.compileSdkVersion = 31
     repositories {
@@ -36,7 +36,7 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20-RC2"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.15"
     }
 }
 
@@ -70,5 +70,5 @@ flutter {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20-RC2"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.1.15"
 }
