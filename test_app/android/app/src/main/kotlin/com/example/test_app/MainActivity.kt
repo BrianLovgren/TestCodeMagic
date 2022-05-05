@@ -1,7 +1,6 @@
-package com.example.myworkplace_mobile_flutter
+package com.example.test_app
 
 import io.flutter.embedding.android.FlutterActivity
 
 class MainActivity: FlutterActivity() {
 }
-

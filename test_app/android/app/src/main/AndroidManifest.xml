@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myworkplace_mobile_flutter">
+    package="com.example.test_app">
    <application
-        android:label="My Workplace"
-        android:icon="@mipmap/launcher_icon">
+        android:label="test_app"
+        android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
